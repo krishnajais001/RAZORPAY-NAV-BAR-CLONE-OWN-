@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');   
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+
+      --deepBlue: "#02042a";
+      --lightBlue: "#2b84ea";
+      --lightBlue300: "#4b94ed";
+      --lightBlue500: "#0b72e7";
+      --greenLight: "#61cea6";
+      --grayText: "#818597";
+      --lightGray: "#e2e2e2";
+      --grayBlue: "#344a6c";
+      --deepBlueHead: "#162f56";
+      --gray2: "#525a76";
+
+}
+header{
+    width: 100%;
+     background-color: #02042a;
+}
+.nav-bar{
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.logo img{
+    
+    width: 7.8125rem;
+    height: 1.875em;;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+
+.items{
+    color: white;
+    position: relative;
+    padding-top: 1.75rem; /* 28px */
+    padding-bottom: 1.75rem; /* 28px */
+    padding-right: 1.45rem; /* 28px */
+}
+.items>div{
+   width: 100%;
+   background-color: var(--lightBlue);
+   position: absolute;
+}
+
+.items:hover div{
+
+}
+
+.btn{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 1rem;
+
+}
+.btn-box{
+    margin-left: 1rem;
+}
+.india-flag{
+     width:1.75rem ;
+     height:1.75rem; 
+}
+
+#login{
+    padding: 0.75rem 1.25rem; /* top/bottom left/right */ 
+    font-weight: bold;
+    background-color: var(--lightBlue300);
+    color: white;
+    border: 1px solid  #2b84ea;
+    border-radius: 0.25rem;
+}
+
+#signup{
+ padding: 0.75rem 1.25rem; /* top/bottom left/right */ 
+    font-weight: bolder;
+    background-color: white;
+    color: #2b84ea;
+    border: 1px solid  #2b84ea;
+    border-radius: 0.25rem;
+}
+
