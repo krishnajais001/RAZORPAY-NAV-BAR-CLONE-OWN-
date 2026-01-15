@@ -55,7 +55,7 @@ header{
     position: relative;
     padding-top: 1.75rem; /* 28px */
     padding-bottom: 1.75rem; /* 28px */
-    padding-right: 1.45rem; /* 28px */
+    padding-left: 1.45rem; /* 28px */
 }
 .items>div{
    width: 100%;
